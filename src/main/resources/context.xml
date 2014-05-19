@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="quoter" class="cz.boris.demo.TerminatorQuoter">
+        <property name="message" value="I'll be back!"/>
+    </bean>
+    <bean id="random" class="cz.boris.demo.InjectRandomBeanPostProcessor" />
+    <bean id="deprecationBeanFactoryPostProcessor" class="cz.boris.demo.DeprecationBeanFactoryPostProcessor" />
+    <bean id="trasactionalBeanPostProcessor" class="cz.boris.demo.MyTrasactionalBeanPostProcessor"/>
+    <bean id="deprecated" class="cz.boris.demo.DeprecatedClass" />
+
+
+
+</beans>
