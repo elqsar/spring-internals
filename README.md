@@ -3,8 +3,8 @@ spring-internals
 
 Simple Spring Framework internals.
 
-BeanPostProcessors
-BeanFactoryPostProcessors
-FactoryBeans
-Annotations
-etc.
+BeanPostProcessors<br/>
+BeanFactoryPostProcessors<br/>
+FactoryBeans<br/>
+Annotations<br/>
+etc.<br/>
